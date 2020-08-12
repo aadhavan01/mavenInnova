@@ -57,8 +57,10 @@ public class BaseClass {
 		
 		//driver = BrowserFactory.startApplication(driver, config.getBrowser(), config.getStagingURL());
 		
+		
+		
 		driver = BrowserFactory.startApplication(driver, browser,url);
-
+				
 		Reporter.log("Browser and Application is up and running", true);
 
 	}

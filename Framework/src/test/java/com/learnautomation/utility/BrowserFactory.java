@@ -14,7 +14,7 @@ public class BrowserFactory {
 	{
 		if(browserName.equals("Chrome"))
 		{
-			System.setProperty("webdriver.chrome.driver","./Drivers/chromedriver.exe");
+			System.setProperty("webdriver.chrome.driver","C:\\Selenium_jars\\chromedriver.exe");
 			driver=new ChromeDriver();
 			
 		}
